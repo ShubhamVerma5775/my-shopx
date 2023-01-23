@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Montserrat','sans-serif';
+}
+
+.slick-prev:before,.slick-next:before{
+    color: black !important;
+}
+
+body::-webkit-scrollbar{
+    /* background-color: red; */
+    width: 0.6rem;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:rgb(239 68 68);
+    border-radius: 1rem;
+    width: 0.1rem;
+}
